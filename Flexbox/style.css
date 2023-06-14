@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5% ;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    height: 50vh;
+    column-gap: 1rem;
+    justify-content: center;
+}
+/* Esto es el order*/
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+.box2{
+    background-color: rgb(34, 133, 39);
+}
+.box3{
+    background-color: rgb(107, 25, 82)
+}
+.box4{
+    background-color: blue;
+}
+.box5{
+    background-color: yellow;
+}
+.box6{
+    background-color: blue;
+}
